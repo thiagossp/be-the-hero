@@ -1,16 +1,10 @@
 const express = require('express');
 
-const routers = express.Router();
+const OngController = require('./controllers/OngController');
 
-routers.post('/users', (request, response) => {
-    const body = request.body;
+const routes = express.Router();
 
-    console.log(body);
+routes.get('/ongs', OngController.index);
+routes.post('/ongs', OngController.create);
 
-    return response.json({
-        envento: 'Semana OmniStack 11.0',
-        aluno: 'Thiago da Silva Pinto'
-    });
-});
-
-module.exports = routers;
+module.exports = routes;
