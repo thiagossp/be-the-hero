@@ -15,6 +15,8 @@ Tecnologias utilizadas no projeto:
 - [React Native](https://facebook.github.io/react-native/)
 - [Expo](https://expo.io/)
 
+## :eyes: Como ficou
+
 <p align="center">
   <img alt="Login da interface web" src="https://github.com/thiagossp/be-the-hero/blob/master/documentation/images/login-web.PNG" width="40%">
   <img alt="Listagem de casos da interface web" src="https://github.com/thiagossp/be-the-hero/blob/master/documentation/images/profile-web.PNG" width="40%">
